@@ -1,0 +1,43 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+main
+{
+    position: relative;
+    width: 100vw; 
+    height: 100vh;
+    background: url(UnderConsBack.jpg) 21.5%;
+}
+
+main section
+{
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #FFC615;
+    border-radius: 10px;
+}
+
+main section img
+{
+    width: 360px;
+    mask-image: radial-gradient(black 50%, transparent, transparent, transparent);
+}
+
+main section p
+{
+    position: relative;
+    width: 260px;
+    padding: 10px 30px;
+    margin: -10px 10px 22px;
+    left: 10px;
+    line-height: 1.25;
+    background: white;
+    border-radius: 10px;
+}
